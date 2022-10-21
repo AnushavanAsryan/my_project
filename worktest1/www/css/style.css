@@ -1,0 +1,1490 @@
+:root{
+    --white:#f9f9f9 ;
+    --red: #ee6e73;
+    --grey: #f3f3f3;
+    --grey2: #e7e7e7;
+    --grey3: #2a2a2a;
+} 
+footer{
+    position: absolute;
+    width: 100%;
+    height: 402px;
+    left: 0px;
+    top: 1014px;
+    background: linear-gradient(93.29deg, #388AF3 21.04%, #A483E2 88.77%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    min-width: 320px;
+}
+a{
+    text-decoration: none;
+    color: #303030;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: var(--white);
+}
+.nav-links a{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* color: #282828; */
+}
+.logo{
+    position: absolute;
+    width: 112px;
+    height: 50px;
+    left: 50px;
+    top: 49px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #303030;
+}
+.menu2{
+    position: absolute;
+    height: 4px;
+    left: 1197px;
+    top: 85px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* color: #282828; */
+}
+.contact{
+    color: #0b76ef;
+}
+.ru{
+    color: #0b76ef;
+}
+.en{
+    color: #979BAD;
+}
+.start{
+    color: #0b76ef;
+}
+.link-menu{
+    position: absolute;
+    width: 168px;
+    height: 21px;
+    left: 359px;
+    top: 226px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303030;
+}
+.we{
+    position: absolute;
+    left: 359px;
+    right: 61.67%;
+    top: 23.4%;
+    width: 400px;
+    bottom: 67.48%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    color: #388AF3;
+}
+.text1{   
+    position: absolute;
+    width: 542px;
+    height: 60px;
+    left: 359px;
+    top: 428px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+}
+.email{
+    color: #388AF3;
+}
+
+.input-name{
+    position: absolute;
+    width: 400px;
+    height: 31px;
+    left: 358px;
+    top: 658px;
+    border: none;
+    border-bottom: 1px solid #E2E2E2;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    color: #CCCCCC;
+    outline: none;
+
+
+}
+
+.input-email{
+    position: absolute;
+    width: 260px;
+    height: 28px;
+    left: 821px;
+    top: 660px;
+    border: none;
+    border-bottom: 1px solid #E2E2E2;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 18px;
+    color: #CCCCCC;
+    outline: none;
+
+}
+.input-coment{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #E2E2E2;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    position: absolute;
+    width: 741px;
+    height: 31px;
+    left: 358px;
+    font-size: 26px;
+    font-weight: 300;
+    top: 853px;
+    outline: none;
+    
+}
+
+.circle {
+    position:absolute;
+    width: 227px;
+    height: 227px;
+    border: 5px solid transparent;
+    border-radius: 450px;
+    top: 656px;
+    left: 1350px;
+    background-color: white;
+    /* border: linear-gradient(orange, violet); */
+    background-clip: padding-box;
+    padding: 10px;
+    /* just to show box-shadow still works fine */
+    box-shadow: 0 3px 9px #388AF3, inset 0 0 9px #A483E2;
+}
+.plane{
+    margin-left: 65.46%;
+    margin-top: 680px;
+}
+
+.send{
+    position: absolute;
+    width: 227px;
+    height: 227px;
+    left: 65.46%;
+    top: 70.98%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    background-color: white;
+    border: none;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* Blue */
+
+    color: #388AF3;
+}
+
+.circle:hover{
+    background-color: #0b76ef;
+    color: white;
+    transition-delay: 0.5s;
+    
+}
+.circle:hover .plane{
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    margin-top: -100px;
+    margin-left: 50px;
+    position: absolute;
+    border: none;
+    /* background-color: white; */
+    
+    width: 96.03px;
+    height: 69.36px;
+}
+.circle:hover .send{
+    color: white;
+    background-color: #0b76ef;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+.circle:active{
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    content: "Отправлен";
+    /* background-color: white; */
+}
+.circle:active .plane{
+    border: none;
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 28px;
+    height: 20.22px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    content: "Отправлен";
+    background-color: white;
+}
+
+
+.footer-logo{
+    
+    position: absolute;
+    width: 112px;
+    height: 50px;
+    left: 359px;
+    top: 56px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.footer-compony{
+    position: absolute;
+    left: 359px;
+    right: 68.65%;
+    top: 90.19%;
+    bottom: 1.52%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+.services{
+    position: absolute;
+    width: 112px;
+    height: 50px;
+    left: 24.74%;
+    top: 56px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 50px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.support{
+    position: absolute;
+    left: 24.74%;
+    right: 55.57%;
+    top: 40.26%;
+    bottom: 13.45%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+.ux{
+    position: absolute;
+    left: 24.74%;
+    right: 55.57%;
+    top: 50.07%;
+    bottom: 10.64%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+.progress{
+    position: absolute;
+    left: 24.74%;
+    right: 55.57%;
+    top: 60.88%;
+    bottom: 6.53%;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+    /* White */
+    
+    color: #FFFFFF;
+}
+.com-title{
+    
+    position: absolute;
+    left: 40.74%;
+    right: 75.57%;
+    top: 16.36%;
+    bottom: 6.53%;
+    width: 117px;
+    height: 31px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    
+    /* White */
+    
+    color: #FFFFFF;
+}
+.com{
+    
+    position: absolute;
+    left: 40.74%;
+    right: 45.05%;
+    top: 40.26%;
+    bottom: 13.45%;
+    width: 150px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+.pp{
+    position: absolute;
+    left: 40.74%;
+    right: 46.2%;
+    top: 50.07%;
+    bottom: 10.64%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.con{
+    position: absolute;
+    left: 40.74%;
+    right: 45.94%;
+    top: 60.88%;
+    bottom: 7.9%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+.footer-contact{
+    position: absolute;
+    left: 53.78%;
+    right: 45.94%;
+    top: 16.36%;
+    bottom: 7.9%;
+    width: 113px;
+    height: 31px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    
+    /* White */
+    
+    color: #FFFFFF;
+}
+.footer-download{
+    position: absolute;
+    left: 53.78%;
+    right: 45.94%;
+    top: 40.26%;
+    bottom: 7.9%;
+    width: 149px;
+    height: 17px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+.footer-number{
+    position: absolute;
+    left: 53.78%;
+    right: 24.27%;
+    top: 50.07%;
+    bottom: 10.11%;
+    width: 180px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+.footer-email{
+    position: absolute;
+    left: 53.78%;
+    right: 28.39%;
+    top: 60.88%;
+    bottom: 7.37%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+.footer-politic{
+    position: absolute;
+    left: 53.78%;
+    right: 22.29%;
+    top: 90.19%;
+    bottom: 1.52%;
+    width: 250px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+.telegram-img{
+    position: absolute;
+    left: 62.78%;
+    right: 45.94%;
+    top: 30.88%;
+    bottom: 7.9%;
+    width: 34px;
+    height: 34px;
+
+
+}
+.whatsapp-img{
+    position: absolute;
+    left: 62.78%;
+    right: 22.29%;
+    top: 50.19%;
+    bottom: 1.52%;
+    width: 34px;
+    height: 34px;
+
+}
+
+.input-checkbox{
+    box-sizing: border-box;
+
+    position: absolute;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    left: 359px;
+    top: 920px;
+}
+.input-checkbox a{
+    margin-left: 5px;
+    color: #0b76ef;
+}
+
+.text-for-input-chekcbox{
+    position: absolute;
+    width: 370px;
+    height: 27px;   
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.custom-radio {
+position: absolute;
+z-index: -1;
+opacity: 0;
+}
+.custom-radio+label {
+display: inline-flex;
+align-items: center;
+user-select: none;
+}
+.custom-radio+label::before {
+content: '';
+display: inline-block;
+width: 1em;
+height: 1em;
+flex-shrink: 0;
+flex-grow: 0;
+border: 1px solid #adb5bd;
+border-radius: 50%;
+margin-right: 0.5em;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 50% 50%;
+}
+.custom-radio:not(:disabled):not(:checked)+label:hover::before {
+border-color: #b3d7ff;
+}
+.custom-radio:not(:disabled):active+label::before {
+background-color: #b3d7ff;
+border-color: #b3d7ff;
+}
+.custom-radio:focus+label::before {
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.custom-radio:focus:not(:checked)+label::before {
+border-color: #80bdff;
+}
+.custom-radio:checked+label::before {
+border-color: #0b76ef;
+background-color: #0b76ef;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+.custom-radio:disabled+label::before {
+background-color: #e9ecef;
+}
+
+
+
+.menu{
+    display: flex;
+
+    font-size: 18px;
+}
+.menu li{
+    padding:5px 0px;
+    margin: 0px 950px 0px -890px;
+}
+.menu2{
+    display: flex;
+    font-size: 18px;
+}
+.menu2 li{
+    padding: 5px 15px;
+    margin-top: -30px;
+}
+#checkbox_toggle{
+    display: none;
+}
+.hamburger{
+    display: none;
+    font-size: 24px;
+    cursor: crosshair;	
+}
+.hamburger-line{
+    background-color: #388AF3;
+    display: block;
+    height: 7px;
+    position: relative;
+    width: 7px;
+    border-radius: 50px;
+}
+.hamburger-line::before,
+.hamburger-line::after{
+    background-color: #388AF3;
+    content: " ";
+    display: block;
+    position: absolute;
+    transition: all .3s;
+    width: 100%;
+    height: 100%;
+}
+.hamburger-line::before{
+    left: 10px;
+    border-radius: 50px;
+}
+.hamburger-line::after{
+    left: -10px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:922px){
+    body{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .logo{
+        display: flex;
+        position: absolute;
+        width: 112px;
+        height: 50px;
+        left: 42px;
+        top: 34px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        color: #303030;
+    }
+    .compony, .project, .contact{
+        
+        display: none;
+
+    }
+    .menu2{
+        display: flex;
+        position: absolute;
+        left: 60%;
+        right: 32.54%;
+        top: 9.14%;
+        bottom: 95.72%;
+        width: 390px;
+    }
+    .link-menu{
+        display: flex;
+        position: absolute;
+        width: 149px;
+        height: 19px;
+        left: 43px;
+        top: 193px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #303030;
+
+    }
+    .we{
+        display: flex;
+        position: absolute;
+        left: 4.56%;
+        right: 64.64%;
+        top: 22.48%;
+        bottom: 76.28%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 120px;
+        color: #388AF3;
+    }
+    .text1{
+        position: absolute;
+        width: 519px;
+        height: 60px;
+        left: 43px;
+        top: 303px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #343434;
+    }
+    .input-name{
+        position: absolute;
+        width: 332px;
+        height: 35px;
+        left: 42px;
+        top: 476px;
+        border: none;
+        border-bottom: 1px solid #E2E2E2;
+        background-color: transparent;
+        color: inherit;
+        outline: none;
+    }
+
+    .input-email{
+        display: flex;
+        position: absolute;
+        width: 325px;
+        height: 35px;
+        left: 471px;
+        top: 476px;
+        border: none;
+        border-bottom: 1px solid #E2E2E2;
+        background-color: transparent;
+        color: inherit;
+        outline: none;
+    }
+    .input-coment{
+        display: flex;
+        box-sizing: border-box;
+        position: absolute;
+        width: 756px;
+        height: 35px;
+        left: 40px;
+        top: 609px;
+        border: none;
+        border-bottom: 1px solid #E2E2E2;
+        background-color: transparent;
+        color: inherit;
+        outline: none;
+    }
+
+    .input-checkbox{
+        
+        position: absolute;
+        width: 332px;
+        height: 30px;
+        left: 41px;
+        top: 669px;
+    }
+    .input-checkbox a{
+        margin-left: 5px;
+        color: #0b76ef;
+    }
+    .circle{
+        position: absolute;
+        width: 227px;
+        height: 227px;
+        left: 40px;
+        top: 820px;        
+    }
+    .footer{
+        position: absolute;
+        max-width: 100%;
+        left: 0px;
+        top: 1057px;
+        height: 400px;
+    }
+    .footer-logo{
+        position: absolute;
+        width: 112px;
+        height: 50px;
+        left: 40px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    .footer-compony{
+        display: flex;
+        position: absolute;
+        left: 4.34%;
+        right: 69.85%;
+        top: 90.4%;
+        bottom: 1.57%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .footer-politic{
+        display: flex;
+        position: absolute;
+        left: 61.39%;
+        right: 15.94%;
+        top: 90.4%;
+        bottom: 1.57%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .services{
+        position: absolute;
+        left: 4.34%;
+        right: 75.49%;
+        top: 20.28%;
+        bottom: 15.69%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+    .support{
+        position: absolute;
+        left: 4.34%;
+        right: 75.49%;
+        top: 160px;
+        bottom: 15.69%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .ux{
+        position: absolute;
+        left: 40px;
+        right: 75.49%;
+        top: 200px;
+        bottom: 15.69%;
+        width: 350px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .progress{
+        position: absolute;
+        left: 40px;
+        right: 75.49%;
+        top: 240px;
+        width: 350px;
+        bottom: 15.69%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .com-title{
+        position: absolute;
+        left: 38.43%;
+        right: 58.89%;
+        top: 20.28%;
+        bottom: 15.69%;   
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+    .com{
+        position: absolute;
+        left: 38.43%;
+        right: 58.89%;
+        top: 160px;
+        bottom: 15.69%;        
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+        
+    }
+    .pp{
+        display: flex;
+        position: absolute;
+        left: 38.43%;
+        right: 58.89%;
+        top: 200px;
+        bottom: 15.69%;  
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .con{
+        display: flex;
+        position: absolute;
+        left: 38.43%;
+        right: 58.89%;
+        top: 240px;
+        bottom: 15.69%; 
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .footer-contact{
+        display: flex;
+        position: absolute;
+        left: 61.39%;
+        right: 20.07%;
+        top: 20.28%;
+        bottom: 19.45%;      
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;   
+        color: #FFFFFF;
+    }
+    .footer-download{
+        display: flex;
+        position: absolute;
+        left: 61.39%;
+        right: 20.07%;
+        top: 160px;
+        bottom: 19.45%;        
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .footer-number{
+        display: flex;
+        position: absolute;
+        left: 61.39%;
+        right: 20.07%;
+        top: 200px;
+        bottom: 13.04%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .footer-email{
+        display: flex;
+        position: absolute;
+        left: 61.39%;
+        right: 20.07%;
+        top: 240px;
+        bottom: 19.45%;        
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .telegram-img{
+        display: flex;
+        position: absolute;
+        left: 85.39%;
+        right: 20.07%;
+        top: 160px;
+    }
+    .whatsapp-img{
+        display: flex;
+        position: absolute;
+        left: 85.39%;
+        right: 20.07%;
+        top: 220px;
+    }
+
+
+    .send{
+        position: absolute;
+        width: 227px;
+        height: 227px;
+        left: 60px;
+        top: 720px;
+
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height, or 111% */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        /* Blue */
+
+        color: #388AF3;
+    }
+
+}
+@media screen and (max-width:480px){
+    body{
+        height: 100%;
+    }
+
+    .hamburger{
+        display: block;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+    .logo{
+        position: absolute;
+        width: 84px;
+        height: 38px;
+        left: 40px;
+        top: 29px;
+        
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 38px;
+        color: #303030;
+    }
+    .menu2{
+        display: none;
+
+    }
+    .link-menu{
+        position: absolute;
+        width: 112px;
+        height: 14px;
+        left: 41px;
+        top: 129px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #303030;
+
+    }
+    .we{
+        position: absolute;
+        left: 9.66%;
+        right: 21.74%;
+        width: 321px;
+        top: 12.35%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        /* line-height: 40px; */
+        color: #388AF3;
+    }
+    .text1{
+        position: absolute;
+        width: 321px;
+        height: 90px;
+        left: 41px;
+        top: 271px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #343434;
+    }
+    .input-name{
+        position: absolute;
+        width: 332px;
+        height: 35px;
+        left: 42px;
+        top: 476px;
+        border: none;
+        border-bottom: 1px solid #E2E2E2;
+        background-color: transparent;
+        color: inherit;
+        outline: none;
+    }
+
+    .input-email{
+        position: absolute;
+        width: 332px;
+        height: 26px;
+        left: 42px;
+        top: 536px;
+        border: none;
+        border-bottom: 1px solid #E2E2E2;
+        background-color: transparent;
+        color: inherit;
+        outline: none;
+    }
+    .input-coment{
+
+        position: absolute;
+        width: 332px;
+        height: 26px;
+        left: 42px;
+        top: 631px;
+        border: none;
+        border-bottom: 1px solid #E2E2E2;
+        background-color: transparent;
+        color: inherit;
+        outline: none;
+    }
+
+    .input-checkbox{
+        
+        position: absolute;
+        width: 332px;
+        height: 30px;
+        left: 41px;
+        top: 769px;
+    }
+    .circle{
+        position: absolute;
+        width: 227px;
+        height: 227px;
+        left: 40px;
+        top: 820px;        
+    }
+    .footer{
+        position: absolute;
+        max-width: 100%;
+        left: 0px;
+        top: 1157px;
+        height: 800px;
+    }
+    .text-for-input-chekcbox{
+        position: absolute;
+        width: 201px;
+        height: 54px;
+        left: 0px;
+        top: -62px;
+
+        font-family: 'Circe';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+
+        /* Dark gray */
+
+        color: #6D6D6D;
+
+    }
+    .footer-logo{
+        position: absolute;
+        width: 112px;
+        height: 50px;
+        left: 40px;
+        /* top: 1224px; */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    .footer-compony{
+        position: absolute;
+        left: 40px;
+        top: 90.4%;
+        bottom: 1.57%;
+        width: 250px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .footer-politic{
+        position: absolute;
+        left: 40px;
+        right: 69.85%;
+        top: 95.4%;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .services{
+        left: 40px;
+        top: 100px;
+        width: 78px;
+        height: 31px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+    .support{
+        position: absolute;
+        left: 40px;
+        right: 75.49%;
+        top: 160px;
+        width: 350px;
+        /* bottom: 15.69%; */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .ux{
+        position: absolute;
+        left: 40px;
+        right: 75.49%;
+        top: 200px;
+        /* bottom: 15.69%; */
+        width: 350px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .progress{
+        position: absolute;
+        left: 40px;
+        right: 75.49%;
+        top: 240px;
+        width: 350px;
+        /* bottom: 15.69%; */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .com-title{
+        width: 117px;
+        height: 31px;
+        top: 300px;
+        left: 40px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+    .com{
+        position: absolute;
+        left: 9.66%;
+        right: 71.01%;
+        top: 360px;
+        /* bottom: 19.45%;         */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+        
+    }
+    .pp{
+        position: absolute;
+        left: 9.66%;
+        right: 71.01%;
+        top: 400px;
+        /* bottom: 19.45%;         */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .con{
+        position: absolute;
+        left: 9.66%;
+        right: 71.01%;
+        top: 440px;
+        /* bottom: 19.45%;         */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .footer-contact{
+        position: absolute;
+        left: 9.66%;
+        right: 71.01%;
+        top: 500px;
+        /* bottom: 19.45%;       */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;   
+        color: #FFFFFF;
+    }
+    .footer-download{
+        position: absolute;
+        left: 9.66%;
+        right: 71.01%;
+        top: 560px;
+        /* bottom: 19.45%;         */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .footer-number{
+        position: absolute;
+        left: 9.66%;
+        right: 71.01%;
+        top: 600px;
+        /* bottom: 19.45%;         */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .footer-email{
+        position: absolute;
+        left: 9.66%;
+        right: 71.01%;
+        top: 640px;
+        /* bottom: 19.45%;         */
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px; 
+        color: #FFFFFF;
+    }
+    .telegram-img{
+        position: absolute;
+        left: 50.66%;
+        right: 71.01%;
+        top: 580px;
+        /* bottom: 19.45%;  */
+    }
+    .whatsapp-img{
+        position: absolute;
+        left: 50.66%;
+        right: 71.01%;
+        top: 630px;
+        /* bottom: 19.45%;         */
+    }
+    .text-for-input-chekcbox{
+        width: 370px;
+    }
+    .text-for-input-chekcbox a{
+        margin-left: 5px;
+    }
+    .send{
+        position: absolute;
+        width: 96px;
+        height: 20px;
+        left: 60px;
+        top: 17px;
+
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height, or 111% */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        /* Blue */
+
+        color: #388AF3;
+    }
+}
